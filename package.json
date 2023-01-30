@@ -26,7 +26,7 @@
     "eslint-config-egg": "^8.1.2",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.2",
-    "node-abi": "^3.8.0",
+    "node-abi": "^3.31.0",
     "nodeunit": "*",
     "patch-package": "^6.4.7",
     "prebuild": "^11.0.4",
