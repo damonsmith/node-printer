@@ -1,5 +1,5 @@
 {
-  "name": "@grandchef/node-printer",
+  "name": "@damonsmith/node-printer",
   "description": "Node.js printer bindings",
   "version": "0.7.1",
   "main": "./lib/printer",
