@@ -8,7 +8,6 @@
     "./build": "./build.js"
   },
   "scripts": {
-    "apply-patches": "patch-package",
     "install": "prebuild-install || node-gyp rebuild",
     "prebuild": "prebuild",
     "rebuild": "node-gyp rebuild",
