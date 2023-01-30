@@ -40,7 +40,7 @@
   "binary": {
     "module_name": "node_printer",
     "module_path": "./lib/binding",
-    "host": "https://github.com/grandchef/node-printer/releases/download/",
+    "host": "https://github.com/damonsmith/node-printer/releases/download/",
     "remote_path": "v{version}"
   },
   "directories": {
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/grandchef/node-printer.git"
+    "url": "https://github.com/damonsmith/node-printer.git"
   },
   "keywords": [
     "native",
@@ -66,7 +66,8 @@
   "contributors": [
     "Thiago Lugli <thiagoelg@gmail.com>",
     "Eko Eryanto <ekoeryanto@gmail.com>",
-    "Francimar Alves <mazinsw@gmail.com>"
+    "Francimar Alves <mazinsw@gmail.com>",
+    "Damon Smith <damon.default@gmail.com>"
   ],
   "license": "MIT"
 }
