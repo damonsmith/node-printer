@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+
 jobs:
   prebuild-linux:
     name: Prebuild Binaries for Linux
