@@ -15,20 +15,20 @@
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.11",
-    "nan": "^2.15.0",
-    "prebuild-install": "^7.0.1"
+    "nan": "^2.17.0",
+    "prebuild-install": "^7.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "eslint": "^7.11.0",
-    "eslint-config-egg": "^8.1.2",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.4.2",
-    "node-abi": "^3.31.0",
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "eslint": "^8.45.0",
+    "eslint-config-egg": "^12.2.1",
+    "husky": "8.0.3",
+    "lint-staged": "^13.2.3",
+    "node-abi": "^3.45.0",
     "node-gyp": "^9.4.0",
     "nodeunit": "*",
-    "patch-package": "^6.4.7",
+    "patch-package": "7.0.2",
     "prebuild": "^11.0.4",
     "prebuild-ci": "^4.0.0"
   },
