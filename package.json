@@ -1,7 +1,7 @@
 {
   "name": "@damonsmith/node-printer",
   "description": "Node.js printer bindings",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "./lib/printer",
   "exports": {
     ".": "./lib/printer.js",
@@ -14,7 +14,7 @@
     "test": "nodeunit test"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "^1.0.9",
+    "@mapbox/node-pre-gyp": "^1.0.11",
     "nan": "^2.15.0",
     "prebuild-install": "^7.0.1"
   },
