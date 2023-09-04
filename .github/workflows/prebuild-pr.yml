@@ -16,7 +16,7 @@ jobs:
           sudo apt-get install -y g++-multilib gcc-multilib libcups2-dev libcups2-dev:i386 libc6-dev-i386 linux-libc-dev linux-libc-dev:i386
       - uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 18.x
       - uses: actions/checkout@v1
       - run: npm i
       - name: Prebuild
@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 18.x
       - uses: actions/checkout@v1
       - run: npm i
       - name: Prebuild
@@ -42,7 +42,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 18.x
       - uses: actions/checkout@v1
       - run: npm i
       - name: Prebuild
