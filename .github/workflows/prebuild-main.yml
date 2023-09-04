@@ -24,8 +24,8 @@ jobs:
       - run: npm i
       - name: Prebuild
         run: |
-          npm run prebuild -- --strip --target 22.0.0 --runtime electron --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
-          npm run prebuild -- --strip --target 18.16.0 --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
+          npm run prebuild -- --strip --target 26.0.0 --runtime electron --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
+          npm run prebuild -- --strip --target 18.16.1 --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
   prebuild-macos:
     name: Prebuild Binaries for macOS
     runs-on: macos-latest
@@ -38,7 +38,7 @@ jobs:
       - run: npm i
       - name: Prebuild
         run: |
-          npm run prebuild -- --strip --target 18.16.0 --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
+          npm run prebuild -- --strip --target 18.16.1 --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
   prebuild-windows:
     name: Prebuild Binaries for Windows
     runs-on: windows-2019
@@ -51,5 +51,5 @@ jobs:
       - run: npm i
       - name: Prebuild
         run: |
-          npm run prebuild -- --strip --target 22.0.0 --runtime electron --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
-          npm run prebuild -- --strip --target 18.16.0 --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
+          npm run prebuild -- --strip --target 26.0.0 --runtime electron --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
+          npm run prebuild -- --strip --target 18.16.1 --arch x64 -u ${{ secrets.PREBUILD_TOKEN }}
