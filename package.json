@@ -1,7 +1,7 @@
 {
   "name": "@damonsmith/node-printer",
   "description": "Node.js printer bindings",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "main": "./lib/printer",
   "exports": {
     ".": "./lib/printer.js",
@@ -25,7 +25,7 @@
     "eslint-config-egg": "^12.2.1",
     "husky": "8.0.3",
     "lint-staged": "^13.2.3",
-    "node-abi": "^3.45.0",
+    "node-abi": "^3.47.0",
     "node-gyp": "^9.4.0",
     "nodeunit": "*",
     "patch-package": "7.0.2",
